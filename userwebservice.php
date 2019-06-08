@@ -1,7 +1,7 @@
 <?php
   header('Content-Type: application/json');
   $resultarray = array(); 
-  require_once('User.php');
+  require_once('user.php');
   $User = new User();
 
   if($_SERVER['REQUEST_METHOD'] == "POST")
